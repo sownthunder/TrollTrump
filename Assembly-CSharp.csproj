@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\Inventory.cs" />
+     <Compile Include="Assets\_Scripts\InventoryEditor.cs" />
+     <Compile Include="Assets\_Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Huge Mocap Library\demo\scripts\demo.cs" />
      <Compile Include="Assets\Huge Mocap Library\demo\scripts\smoothFollow.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Camera\CameraControl.cs" />
@@ -63,7 +66,6 @@
      <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\Interactable.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\ReactionCollection.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\TextManager.cs" />
-     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\SceneControl\SceneController.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\SceneControl\StartingPosition.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\DataPersistence\SaveData.cs" />
