@@ -7,7 +7,16 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Persistent.unity
+    guid: ef18a6fcc8276e541a14d91f5fb2d496
   - enabled: 1
     path: Assets/Scenes/SecurityRoom.unity
+    guid: fa8464330437a6c439e767c377bbee1d
   - enabled: 1
     path: Assets/Scenes/Market.unity
+    guid: 3020f6f7c8ece2f4da9fa9ca87063961
+  - enabled: 0
+    path: Assets/_Scenes/test1.unity
+    guid: 6c9690fe197f0464895aec34882a31ef
+  - enabled: 0
+    path: Assets/Scenes/SecurityRoomTest.unity
+    guid: c4da5eb65f0b17f45842b7e30a4943ff

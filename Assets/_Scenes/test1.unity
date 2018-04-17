@@ -270,6 +270,10 @@ Prefab:
       propertyPath: reactions.Array.data[6]
       value: 
       objectReference: {fileID: 1578821600}
+    - target: {fileID: 11484708, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: defaultReactionCollection
+      value: 
+      objectReference: {fileID: 65161320}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabParent: 0
@@ -279,6 +283,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 65161318}
   m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
+--- !u!114 &65161320 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4,
+    type: 2}
+  m_PrefabInternal: {fileID: 65161318}
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
 --- !u!114 &104556140
 MonoBehaviour:
   m_ObjectHideFlags: 0
