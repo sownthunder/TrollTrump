@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MonoBehaviours\TrumpPlayer\PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Editor\Inventory\InventoryEditor.cs">
     <Files>
-      <File FileName="Assets\Scripts\MonoBehaviours\TrumpPlayer\PlayerMovement.cs" Line="10" Column="19" />
+      <File FileName="Assets\Scripts\MonoBehaviours\TrumpPlayer\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" Line="38" Column="14" />
+      <File FileName="Assets\Scripts\ScriptableObjects\Interaction\Reactions\DelayedReactions\LostItemReaction.cs" Line="17" Column="9" />
+      <File FileName="Assets\Scripts\ScriptableObjects\Interaction\Reactions\DelayedReactions\PickedUpItemReaction.cs" Line="17" Column="9" />
+      <File FileName="Assets\Scripts\Editor\Inventory\InventoryEditor.cs" Line="23" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
