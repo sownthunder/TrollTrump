@@ -56,7 +56,7 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 9
     m_Resolution: 2
-    m_BakeResolution: 100
+    m_BakeResolution: 30
     m_TextureWidth: 4096
     m_TextureHeight: 1024
     m_AO: 1
@@ -81,7 +81,7 @@ LightmapSettings:
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 0
+    m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -90,9 +90,9 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000001, guid: a2ec3523b59843b4ebd5bc714a10ec50,
+  m_LightingDataAsset: {fileID: 112000002, guid: a2ec3523b59843b4ebd5bc714a10ec50,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Fresh coffee!  Only one coin!
-  textColor: {r: 1, g: 0.5019608, b: 0, a: 1}
+  textColor: {r: 0.5686275, g: 0.78431374, b: 0.5686275, a: 1}
   delay: 0
 --- !u!114 &30378265
 MonoBehaviour:
@@ -542,7 +542,7 @@ Prefab:
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338659632}
+      objectReference: {fileID: 1488269429}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnInteractableClick
@@ -809,6 +809,20 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 279477568}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!114 &281339374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a931d1c243b462c46bad5f7d2aae5949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  animator: {fileID: 1644305135}
+  trigger: EquipGlasses
 --- !u!114 &320778503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -834,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 10
   gameObject: {fileID: 1613677337}
   activeState: 0
 --- !u!114 &325068502
@@ -851,59 +865,6 @@ MonoBehaviour:
   message: I doubt this is a clue...
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
---- !u!1001 &338659631
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.369
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.085
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2.447
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 95350580603759460, guid: b4b21541e6ade43429f9e01b98986c06,
-        type: 2}
-      propertyPath: m_CullingMode
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
-  m_IsPrefabParent: 0
---- !u!114 &338659632 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114780103826712592, guid: b4b21541e6ade43429f9e01b98986c06,
-    type: 2}
-  m_PrefabInternal: {fileID: 338659631}
-  m_Script: {fileID: 11500000, guid: 71f3135d121394f4b98b2a8a448d1efa, type: 3}
 --- !u!114 &377204854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,11 +1503,11 @@ Prefab:
     - target: {fileID: 11457004, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 2}
       propertyPath: playerPosition
       value: 
-      objectReference: {fileID: 1644305134}
+      objectReference: {fileID: 1488269430}
     - target: {fileID: 11471296, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338659632}
+      objectReference: {fileID: 1488269429}
     - target: {fileID: 454474, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 2}
       propertyPath: m_LocalPosition.z
       value: 12
@@ -1562,6 +1523,10 @@ Prefab:
     - target: {fileID: 11457004, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 2}
       propertyPath: offset.y
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010619207620, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11471296, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1970,7 +1935,7 @@ Prefab:
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338659632}
+      objectReference: {fileID: 1488269429}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnInteractableClick
@@ -2380,7 +2345,7 @@ Prefab:
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338659632}
+      objectReference: {fileID: 1488269429}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnInteractableClick
@@ -2897,7 +2862,7 @@ Prefab:
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338659632}
+      objectReference: {fileID: 1488269429}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnInteractableClick
@@ -3026,6 +2991,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 1
   item: {fileID: 11400000, guid: f0776cdb931cbdb4b83c5035ebf49463, type: 2}
+--- !u!114 &1351843567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 4
+  gameObject: {fileID: 1644305137}
+  activeState: 1
 --- !u!114 &1396242976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3073,6 +3052,59 @@ MonoBehaviour:
   message: Oh some glasses!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
+--- !u!1001 &1488269428
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b4b21541e6ade43429f9e01b98986c06, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1488269429 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114780103826712592, guid: b4b21541e6ade43429f9e01b98986c06,
+    type: 2}
+  m_PrefabInternal: {fileID: 1488269428}
+  m_Script: {fileID: 11500000, guid: 29103d8075f789345997a0adb6a7520e, type: 3}
+--- !u!4 &1488269430 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4070630187920958, guid: b4b21541e6ade43429f9e01b98986c06,
+    type: 2}
+  m_PrefabInternal: {fileID: 1488269428}
 --- !u!114 &1521942419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3087,6 +3119,20 @@ MonoBehaviour:
   message: Oh!  A coin!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
+--- !u!114 &1601437374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.9
+  gameObject: {fileID: 1644305136}
+  activeState: 1
 --- !u!114 &1612421081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3110,7 +3156,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: reactions.Array.size
-      value: 9
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 11405492, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: audioReactions.Array.size
@@ -3403,6 +3449,26 @@ Prefab:
       propertyPath: reactions.Array.data[8]
       value: 
       objectReference: {fileID: 324065090}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[9]
+      value: 
+      objectReference: {fileID: 281339374}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[10]
+      value: 
+      objectReference: {fileID: 1601437374}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[11]
+      value: 
+      objectReference: {fileID: 1679247436}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[12]
+      value: 
+      objectReference: {fileID: 1351843567}
+    - target: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
+      propertyPath: reactions.Array.data[13]
+      value: 
+      objectReference: {fileID: 1351843567}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
   m_IsPrefabParent: 0
@@ -3479,11 +3545,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 137000011337651692, guid: ab5f05eb414b65f4f9c285f785c1dfad,
+    - target: {fileID: 23000013847003688, guid: ab5f05eb414b65f4f9c285f785c1dfad,
         type: 2}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 033a89b479ed0e242a87bbdd65d50c7a, type: 2}
+    - target: {fileID: 23000012139679350, guid: ab5f05eb414b65f4f9c285f785c1dfad,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 033a89b479ed0e242a87bbdd65d50c7a, type: 2}
     - target: {fileID: 1000014019507428, guid: ab5f05eb414b65f4f9c285f785c1dfad, type: 2}
       propertyPath: m_IsActive
       value: 0
@@ -3491,14 +3562,19 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab5f05eb414b65f4f9c285f785c1dfad, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1644305134 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4000014075113472, guid: ab5f05eb414b65f4f9c285f785c1dfad,
-    type: 2}
-  m_PrefabInternal: {fileID: 1644305133}
 --- !u!95 &1644305135 stripped
 Animator:
   m_PrefabParentObject: {fileID: 95000012945752278, guid: ab5f05eb414b65f4f9c285f785c1dfad,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644305133}
+--- !u!1 &1644305136 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010060980236, guid: ab5f05eb414b65f4f9c285f785c1dfad,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644305133}
+--- !u!1 &1644305137 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011958607958, guid: ab5f05eb414b65f4f9c285f785c1dfad,
     type: 2}
   m_PrefabInternal: {fileID: 1644305133}
 --- !u!114 &1656089792
@@ -3528,6 +3604,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 1
   item: {fileID: 11400000, guid: f75f3ff4d2e91964bb8f1b9d1ba6c1f2, type: 2}
+--- !u!114 &1679247436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 4
+  gameObject: {fileID: 1644305136}
+  activeState: 0
 --- !u!114 &1700138997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4077,7 +4167,7 @@ Prefab:
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338659632}
+      objectReference: {fileID: 1488269429}
     - target: {fileID: 11485606, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnInteractableClick
@@ -4177,7 +4267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Here's your coffee!
-  textColor: {r: 1, g: 0.5019608, b: 0, a: 1}
+  textColor: {r: 0.5686275, g: 0.78431374, b: 0.5686275, a: 1}
   delay: 0
 --- !u!114 &2067285672
 MonoBehaviour:

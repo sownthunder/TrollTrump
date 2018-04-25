@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 506a3d6e5f7f45940a5241d428b81698
+timeCreated: 1520205786
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Circle
+    100002: Clouds_2_Empty
+    100004: Cube
+    100006: Cube_001
+    100008: Cube_002
+    100010: Curve
+    100012: mat_bareoak
+    100014: mat_bareoak_001
+    100016: mat_bareoak_002
+    100018: Plane
+    100020: Plane_001
+    100022: Plane_002
+    100024: Plane_003
+    100026: Plane_004
+    100028: Plane_005
+    100030: Plane_006
+    100032: Plane_007
+    100034: Seil
+    100036: Seil_001
+    100038: Seil_002
+    100040: Seil_003
+    100042: Seil_004
+    100044: Seil_005
+    100046: Seil_006
+    100048: Seil_007
+    100050: Seil_008
+    100052: Seil_009
+    100054: //RootNode
+    100056: Voronoi_Empty
+    100058: Wood_Empty
+    400000: Circle
+    400002: Clouds_2_Empty
+    400004: Cube
+    400006: Cube_001
+    400008: Cube_002
+    400010: Curve
+    400012: mat_bareoak
+    400014: mat_bareoak_001
+    400016: mat_bareoak_002
+    400018: Plane
+    400020: Plane_001
+    400022: Plane_002
+    400024: Plane_003
+    400026: Plane_004
+    400028: Plane_005
+    400030: Plane_006
+    400032: Plane_007
+    400034: Seil
+    400036: Seil_001
+    400038: Seil_002
+    400040: Seil_003
+    400042: Seil_004
+    400044: Seil_005
+    400046: Seil_006
+    400048: Seil_007
+    400050: Seil_008
+    400052: Seil_009
+    400054: //RootNode
+    400056: Voronoi_Empty
+    400058: Wood_Empty
+    2300000: Circle
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: Curve
+    2300010: mat_bareoak
+    2300012: mat_bareoak_001
+    2300014: mat_bareoak_002
+    2300016: Plane
+    2300018: Plane_001
+    2300020: Plane_002
+    2300022: Plane_003
+    2300024: Plane_004
+    2300026: Plane_005
+    2300028: Plane_006
+    2300030: Plane_007
+    2300032: Seil
+    2300034: Seil_001
+    2300036: Seil_002
+    2300038: Seil_003
+    2300040: Seil_004
+    2300042: Seil_005
+    2300044: Seil_006
+    2300046: Seil_007
+    2300048: Seil_008
+    2300050: Seil_009
+    3300000: Circle
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: Curve
+    3300010: mat_bareoak
+    3300012: mat_bareoak_001
+    3300014: mat_bareoak_002
+    3300016: Plane
+    3300018: Plane_001
+    3300020: Plane_002
+    3300022: Plane_003
+    3300024: Plane_004
+    3300026: Plane_005
+    3300028: Plane_006
+    3300030: Plane_007
+    3300032: Seil
+    3300034: Seil_001
+    3300036: Seil_002
+    3300038: Seil_003
+    3300040: Seil_004
+    3300042: Seil_005
+    3300044: Seil_006
+    3300046: Seil_007
+    3300048: Seil_008
+    3300050: Seil_009
+    4300000: Cube_002
+    4300002: Plane_007
+    4300004: mat_bareoak_002
+    4300006: mat_bareoak_001
+    4300008: Plane_005
+    4300010: Curve
+    4300012: Plane_006
+    4300014: Plane_004
+    4300016: Plane_003
+    4300018: Seil_005
+    4300020: Seil_004
+    4300022: Seil_009
+    4300024: Seil_003
+    4300026: Seil_008
+    4300028: Cube_001
+    4300030: Seil_002
+    4300032: Seil_001
+    4300034: Seil_007
+    4300036: Seil
+    4300038: Seil_006
+    4300040: Circle
+    4300042: Plane_002
+    4300044: Plane_001
+    4300046: Plane
+    4300048: Cube
+    4300050: mat_bareoak
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron
+    second: {fileID: 2100000, guid: 23bc0e390754bf7458cfc69032da626e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: b6fad797e63156947941c0f8ba217386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope_net
+    second: {fileID: 2100000, guid: 0e5d3c042e2281449bf2ccf8c8adb4b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand
+    second: {fileID: 2100000, guid: cca11759a2a741348805f1063483807f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wenge_Wood
+    second: {fileID: 2100000, guid: 375f8fbf062c60e4b9f5ec56784f025e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bareoak
+    second: {fileID: 2100000, guid: a336f82b0becf004289bd560e6b03442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bareoak_001
+    second: {fileID: 2100000, guid: 134337352cd70e547b3faba96de66a70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bareoak_002
+    second: {fileID: 2100000, guid: ba3c80eee9e5fd34d8e325ad5082e83a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

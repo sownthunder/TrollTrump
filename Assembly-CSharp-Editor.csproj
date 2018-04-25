@@ -74,6 +74,8 @@
      <None Include="Assets\Fonts\OFL.txt" />
      <None Include="Assets\Huge Mocap Library\READTHIS.txt" />
      <None Include="Assets\Huge Mocap Library\mocap animations\cmu-mocap-index-text.txt" />
+     <None Include="Assets\allLowPolyGuns\BLENDSWAP_LICENSE.txt" />
+     <None Include="Assets\allLowPolyGuns\plucked_chicken\cadnav.com_model\readme.txt" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\Hologram.shader" />
  <Reference Include="Facebook.Unity.Settings">

@@ -1,6 +1,7 @@
 Android
 d5e70b9e5886c6d00ed06b562632c832 Assembly-CSharp.dll:.StartingPosition
 1e454d747a8749c749dfe27b9bc9a032 Assembly-CSharp.dll:.ConditionCollection
+645d19798b948b05552a871a30b22c16 Assembly-CSharp.dll:.PlayerMovement
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -158,7 +159,6 @@ ddffee96f0d6d59066aa9fbc8cd20335 Assembly-CSharp.dll:.smoothFollow
 d29160dd652de98c78036baf335b1c60 Assembly-CSharp.dll:.AllConditions
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SaveData
 45816620d083484fb0541a1fd3bd054c Assembly-CSharp.dll:.CameraControl
-08f20536cd92a99050da2aa61905dd14 Assembly-CSharp.dll:.PlayerMovement
 0a2aaa8e9e7acff8d2a69480d416800a Assembly-CSharp.dll:.PickedUpItemReaction
 92d480dfc1301367f5bb1dacd6804ba5 Assembly-CSharp.dll:.Item
 bf1fa0937d9526c8f680605938946b17 Assembly-CSharp.dll:.ReactionCollection
